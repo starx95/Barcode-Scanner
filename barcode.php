@@ -12,7 +12,7 @@ if(isset($_GET['id'])){
     $id=$_GET['id'];
 }
 ?>
-    
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -97,7 +97,6 @@ if(isset($_GET['id'])){
                         sourceSelect.onchange = () => {
                             selectedDeviceId = sourceSelect.value;
                         }
-
                         const sourceSelectPanel = document.getElementById('sourceSelectPanel')
                         sourceSelectPanel.style.display = 'block'
                     }
